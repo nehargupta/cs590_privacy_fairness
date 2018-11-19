@@ -1,2 +1,2 @@
-# cs590_privacy_fairness
-For our team's CS 590.1 Project! :D
+# cs590-1
+Team project for CS-590.1 (Differential privacy and fair ML), at Duke University. Fall 2018.

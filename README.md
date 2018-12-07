@@ -38,4 +38,4 @@ First, we measure bias. Second, we perturb our dataset, and then look at the rel
 
 ![LogDI and threshold][threshold]
 
-[threshold]: https://raw.githubusercontent.com/guptane6/cs590_privacy_fairness/master/logDI_threshold.png
+[threshold]: https://raw.githubusercontent.com/guptane6/cs590_privacy_fairness/master/figures/logDI_threshold.png

@@ -8,7 +8,7 @@ We have a dataset of Wikipedia Talk Page comments. Unfortunately, since there ar
 We’d like to flag comments like “Gay people are awful!!!”.
 But we don’t want to flag comments like “I am a proud gay person”.
 
-Dixon et al (2017) tackle this problem.
+[Dixon et al (2017)](http://www.aies-conference.com/wp-content/papers/main/AIES_2018_paper_9.pdf) tackle this problem.
 
 Our project seeks to shed light on:
 
@@ -28,4 +28,14 @@ First, we measure bias. Second, we perturb our dataset, and then look at the rel
 
 1) It appears that, with our method of perturbation and the classifier we use, as the bias of our dataset increases, the bias of a classifier trained on that dataset increases, but at a decreasing rate.
 
+![LogDI of training and test data][logDItraintest]
+![LogDI at different values of p][p_graph]
+
+[logDItraintest]: https://raw.githubusercontent.com/guptane6/cs590_privacy_fairness/master/figures/logDItrainvstest_moredata.png
+[p_graph]: https://raw.githubusercontent.com/guptane6/cs590_privacy_fairness/master/figures/perturbations_graph1206.png
+
 2) As we increase the mean toxicity rating threshold, the bias of our classifier increases.
+
+![LogDI and threshold][threshold]
+
+[threshold]: https://raw.githubusercontent.com/guptane6/cs590_privacy_fairness/master/logDI_threshold.png

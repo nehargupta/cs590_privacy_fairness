@@ -1,5 +1,5 @@
 # A perturbation and threshold analysis of fairness in text classification
-Suppose you have a website. And a comments section, where users can leave comments.
+Suppose we have a website. And a comments section, where users can leave comments.
 
 When users leave comments, we may want to flag some comments as toxic, and choose not to publish them. We may want to do this with a classifier.
 
